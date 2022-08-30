@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-size: 25px;
+    position: relative;
+
+}
+.container{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background-color: #fff;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 1px 1px 13px rgb(0 0 0 / 10%);
+
+}
+h1{
+    background-color: #cef5e4;
+    padding: 10px 0;
+    /* font-size: 35px; */
+    border-radius: 18px;
+}
+p{
+    color: #0764cf;
+}
+.control{
+    margin: 25px 0;
+}
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #16a465;
+    color: #16a465;
+    font-size: 20px;
+    margin-top: 15px;
+}
+select{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #16a465;
+    color: #c01212;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 11px 20px;
+    width: 50%;
+}
+#calculate{
+color: white;
+background: #16a465;
+border: 1px solid transparent;
+font-size: 15px;
+border-radius: 25px;
+padding: 12px 29px;
+margin: 20px;
+transition: all .3s ease;
+}
+#calculate:hover{
+    color: #2804f1;
+    border-color: #16a465;
+    background: white;
+}
+.totalTip{
+    background: #71f1ba;
+    border-radius: 15px;
+    padding: 20px 0 20px;
+}
+p.tip{
+    font-size: 35px;
+    color: #009855;
+    margin-top: 10px;
+}
+/* #tipPercent{
+    fot
+} */
+
+
+
